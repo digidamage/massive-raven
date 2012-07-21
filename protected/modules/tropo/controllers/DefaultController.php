@@ -10,7 +10,7 @@ class DefaultController extends Controller
 		$tropo = new Tropo();
 		$tropo->say("Hello World!");
 		$tropo->renderJson();
-		#Yii::app()->end(); 
+		Yii::app()->end(); 
 
 	}
 

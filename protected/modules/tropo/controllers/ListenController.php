@@ -31,20 +31,18 @@ class ListenController extends Controller {
 		  // This is a text message
 		  $tropo->say("You contacted me via text.");
 		  
-		  // The first text of the session is going to be queued and applied to the first
-		  // ask statement you include...
-		  $tropo->ask("This will catch the first text", array('choices' => '[ANY]'));
-
 		  // ... or, you can grab that first text like this straight from the session.
 		  $messsage = $session->getInitialText();
 
 		  $tropo->say("You said " . $message);
+		
 		} else {
 		  // This is a phone call
 		  $tropo->say("Awww. How nice. You cared enough to call.");
 		}
 
 		print $tropo;
+		Yii::app()->end(); 
 	}
 
 }
