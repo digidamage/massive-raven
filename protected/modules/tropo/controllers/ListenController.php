@@ -23,7 +23,7 @@ class ListenController extends Controller {
 		  // do anything if we catch this.
 		}
 
-		$this->tropo = new Tropo()
+		$this->tropo = new Tropo();
 		// Get caller details
 		$this->_caller = $session->getFrom();
 		$this->_called = $session->getTo();
