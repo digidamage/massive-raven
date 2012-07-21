@@ -23,8 +23,7 @@ class ListenController extends Controller {
 		  // do anything if we catch this.
 		}
 
-		$this->tropo = new Tropo();
-		
+		$this->tropo = new Tropo()
 		// Get caller details
 		$this->_caller = $session->getFrom();
 		$this->_called = $session->getTo();
@@ -117,7 +116,7 @@ class ListenController extends Controller {
 				$this->snapResponse();
 				break;
 			case 'H?':
-				// Send Snap exit greeting 
+				// S5end Snap exit greeting 
 				$this->snapResponse();
 				break;
 
