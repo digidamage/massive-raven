@@ -34,7 +34,7 @@ class ListenController extends Controller {
 		// $called now has a hash containing the keys: id, name, channel, and network
 		#$called['id'];
 
-		if ($called['channel'] == "TEXT") {
+		if ($this->_called['channel'] == "TEXT") {
 
 		  // Text greeting
 		  $this->tropo->say("Welcome to Text Roulette!");
@@ -86,7 +86,7 @@ class ListenController extends Controller {
 		      }
 			}
 		}
-		
+
 		// STOP
  		if($_message == "STOP" || $_message == "S!") {
 			// Send Snap exit greeting 
