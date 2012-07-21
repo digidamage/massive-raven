@@ -85,8 +85,8 @@ class ListenController extends Controller {
 		      	// Search for random partner
 		      }
 			}
+		}
 		
-
 		// STOP
  		if($_message == "STOP" || $_message == "S!") {
 			// Send Snap exit greeting 
@@ -132,7 +132,7 @@ class ListenController extends Controller {
  */
 		
 
-		}
+		
 	}
 
 	/* This will look at the _message property and determine response */
