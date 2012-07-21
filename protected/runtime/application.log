@@ -1,0 +1,987 @@
+2012/07/20 22:24:15 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(7): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:28:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(7): CModule->__get('tropo')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:29:20 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(7): CModule->__get('tropo')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:35:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(8): CModule->__get('tropo')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:35:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(8): CModule->__get('tropo')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:36:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(8): CModule->__get('TropoComponent')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:39:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(8): CModule->__get('TropoComponent')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:39:49 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(8): CModule->__get('TropoComponent')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 22:41:26 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 22:42:08 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 22:42:09 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.TropoComponent" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__get('TropoComponent')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 22:44:14 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tropoComp" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/base/CModule.php(106): CComponent->__get('tropoComp')
+#1 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CModule->__get('tropoComp')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 22:44:27 [error] [exception.CException] exception 'CException' with message 'TropoComponent and its behaviors do not have a method or closure named "tropo".' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__call('tropo', Array)
+#1 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): TropoComponent->tropo()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 22:45:01 [error] [exception.CException] exception 'CException' with message 'TropoComponent and its behaviors do not have a method or closure named "tropo".' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__call('tropo', Array)
+#1 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): TropoComponent->tropo()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/
+---
+2012/07/20 23:00:21 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(9): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 23:13:19 [error] [exception.CException] exception 'CException' with message 'DefaultController and its behaviors do not have a method or closure named "_sendResponse".' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(14): CComponent->__call('_sendResponse', Array)
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(14): DefaultController->_sendResponse(200, 'null')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 23:14:58 [error] [exception.CException] exception 'CException' with message 'DefaultController and its behaviors do not have a method or closure named "_sendResponse".' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(16): CComponent->__call('_sendResponse', Array)
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(16): DefaultController->_sendResponse(200, 'null')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 23:14:59 [error] [exception.CException] exception 'CException' with message 'DefaultController and its behaviors do not have a method or closure named "_sendResponse".' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(16): CComponent->__call('_sendResponse', Array)
+#1 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(16): DefaultController->_sendResponse(200, 'null')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 23:19:58 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.tropo" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/controllers/SiteController.php(32): CComponent->__get('tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#7 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/20 23:35:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('index/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index/tropo
+---
+2012/07/20 23:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/api".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('index/api')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index/api
+---
+2012/07/21 00:10:20 [error] [exception.CException] exception 'CException' with message 'Property "TropoComponent.Session" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(18): CComponent->__get('Session')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(292): CFilterChain->run()
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/21 00:11:56 [error] [exception.CException] exception 'CException' with message 'Property "TropoComponent.Session" is not defined.' in /home/digid/public_html/massive-raven/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(19): CComponent->__get('Session')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/digid/public_html/massive-raven/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(292): CFilterChain->run()
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo')
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+---
+2012/07/21 00:24:52 [error] [php] include(Tropo.php): failed to open stream: No such file or directory (/home/digid/public_html/massive-raven/yii/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(14): spl_autoload_call()
+#1 /home/digid/public_html/massive-raven/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/filters/CFilterChain.php(134): DefaultController->runAction()
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(292): CFilterChain->run()
+#5 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): DefaultController->runActionWithFilters()
+#6 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): DefaultController->run()
+#7 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/digid/public_html/massive-raven/index.php(14): CWebApplication->run()
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+in /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php (14)
+in /home/digid/public_html/massive-raven/index.php (14)
+2012/07/21 00:28:30 [error] [php] include(DefaultController.php): failed to open stream: No such file or directory (/home/digid/public_html/massive-raven/yii/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php(5): spl_autoload_call()
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(344): require()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(332): CWebApplication->createController()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(270): CWebApplication->createController()
+#4 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/digid/public_html/massive-raven/index.php(14): CWebApplication->run()
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo
+in /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/DefaultController.php (5)
+in /home/digid/public_html/massive-raven/index.php (14)
+2012/07/21 00:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listenrequest".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listenreq...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listenrequest
+---
+2012/07/21 00:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listenRequest".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listenReq...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listenRequest
+---
+2012/07/21 00:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 00:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 00:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 01:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 01:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 01:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/defaultcontroller/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/defaultco...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/defaultcontroller/listen
+---
+2012/07/21 01:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/defaultController/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/defaultCo...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/defaultController/listen
+---
+2012/07/21 01:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/defaultController/".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/defaultCo...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/defaultController/
+---
+2012/07/21 01:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/listen
+---
+2012/07/21 01:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/Listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/Listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/Listen
+---
+2012/07/21 01:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/Listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/Listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/Listen
+---
+2012/07/21 01:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/Listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/Listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php?r=tropo/Listen
+---
+2012/07/21 01:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo
+---
+2012/07/21 01:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo/i...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo/index
+---
+2012/07/21 01:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo/l...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo/listen
+---
+2012/07/21 01:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo/i...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo/index
+---
+2012/07/21 01:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo
+---
+2012/07/21 01:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/index')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/index
+---
+2012/07/21 01:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/Listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/Listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/Listen
+---
+2012/07/21 01:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:20:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:23:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "modules/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('modules/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/modules/tropo/
+---
+2012/07/21 01:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/listen
+---
+2012/07/21 01:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/listen
+---
+2012/07/21 01:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/listen
+---
+2012/07/21 01:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/listen
+---
+2012/07/21 01:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/listen
+---
+2012/07/21 01:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "module/tropo".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('module/tropo')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/module/tropo/
+---
+2012/07/21 01:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/LISTEN".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/LISTEN')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/LISTEN
+---
+2012/07/21 01:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/listen
+---
+2012/07/21 01:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/li...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/listen
+---
+2012/07/21 01:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+---
+2012/07/21 01:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/index')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/index
+---
+2012/07/21 01:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/in...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/index
+---
+2012/07/21 01:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen/index".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen/in...')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/index
+---
+2012/07/21 01:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(271): CController->missingAction('listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('listen')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/default/l...')
+#3 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/default/listen
+---
+2012/07/21 01:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(271): CController->missingAction('listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('listen')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/default/l...')
+#3 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/default/listen
+---
+2012/07/21 01:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tropo/listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen/
+---
+2012/07/21 01:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(271): CController->missingAction('listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('listen')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/default/l...')
+#3 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/default/listen
+---
+2012/07/21 01:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listen".' in /home/digid/public_html/massive-raven/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(271): CController->missingAction('listen')
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): CController->run('listen')
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('tropo/default/l...')
+#3 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/digid/public_html/massive-raven/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/default/listen
+---
+2012/07/21 01:45:28 [error] [php] Undefined variable: session (/home/digid/public_html/massive-raven/protected/modules/tropo/controllers/ListenController.php:19)
+Stack trace:
+#0 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(287): ListenController->runAction()
+#1 /home/digid/public_html/massive-raven/yii/framework/web/CController.php(266): ListenController->runActionWithFilters()
+#2 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(276): ListenController->run()
+#3 /home/digid/public_html/massive-raven/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/digid/public_html/massive-raven/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/digid/public_html/massive-raven/index.php(14): CWebApplication->run()
+REQUEST_URI=/~digid/massive-raven/index.php/tropo/listen
+in /home/digid/public_html/massive-raven/protected/modules/tropo/controllers/ListenController.php (19)
+in /home/digid/public_html/massive-raven/index.php (14)

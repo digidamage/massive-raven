@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Raven',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -16,37 +16,60 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'ext.restfullyii.components.*',
 	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		/*
+		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
+			'password'=>'larlar',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		*/
+
+    	'tropo',
+		
 	),
 
 	// application components
 	'components'=>array(
+
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+
+/*
+		// REST API
+		'urlManager'=>array(
+		    'urlFormat'=>'path',
+		    'rules'=>array(
+		        'post/<id:\d+>/<title:.*?>'=>'post/view',
+		        'posts/<tag:.*?>'=>'post/index',
+		        // REST patterns
+		        array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
+		        array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
+		        array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),
+		        array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+		        array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'),
+		        // Other controllers
+		        '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+		    ),
+		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		 */
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+			'rules' => array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-			),
+				'module/<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',
+				//now do the following just so you see what I meant
+				//'module/<m:\w+>/<c:\w+>/<a:\w+>'=>'<m>/<c>/<a>'
+            ),
 		),
-		*/
+
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
@@ -76,7 +99,7 @@ return array(
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
+				 */
 			),
 		),
 	),
@@ -85,6 +108,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'james@trifate.com',
 	),
 );
