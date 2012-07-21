@@ -32,7 +32,7 @@ class ListenController extends Controller {
 		  $tropo->say("You contacted me via text.");
 		  
 		  // ... or, you can grab that first text like this straight from the session.
-		  $messsage = $session->getInitialText();
+		  $message = $session->getInitialText();
 
 		  $tropo->say("You said " . $message);
 		
