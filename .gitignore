@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 assets/
+=======
+assets/*
+protected/runtime/*
+>>>>>>> master
