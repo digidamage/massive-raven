@@ -40,10 +40,10 @@ class ListenController extends Controller {
 		  $this->tropo->say("Welcome to Text Roulette!");
   		  $this->tropo->say("(At any point to stop getting text simply type \"STOP\" or \"s!\")");
 		  $this->tropo->say("Text back \"START\" or \"s?\" to get connected");
-
+		  print $this->tropo;
 
 		  // Get text
-		  $this->_message = strtoupper($session->getInitialText());
+		  $this->_message = $session->getInitialText();
 		  #$this->tropo->say("You said " . $this->_message);
 
 		  // Look for command
@@ -58,7 +58,7 @@ class ListenController extends Controller {
 
 		}
 
-		print $tropo;
+		print $this->tropo;
 		#Yii::app()->end(); 
 	}
 
