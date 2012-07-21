@@ -132,6 +132,7 @@ class ListenController extends Controller {
  */
 		
 
+		}
 	}
 
 	/* This will look at the _message property and determine response */
