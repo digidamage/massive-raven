@@ -3,6 +3,12 @@
 
 class ListenController extends Controller {
 
+	private $_message;
+	private $_caller;
+	private $_called;
+	public  $tropo = new Tropo();
+
+
 	public function actionIndex() {
 		
 
@@ -16,33 +22,137 @@ class ListenController extends Controller {
 		  // do anything if we catch this.
 		}
 
-		$caller = $session->getFrom();
+		// Get caller details
+		$this->_caller = $session->getFrom();
+		$this->_called = $session->getTo();
 
-		$tropo = new Tropo();
 		// $caller now has a hash containing the keys: id, name, channel, and network
-		$tropo->say("Your phone number is " . $caller['id']);
-
-		$called = $session->getTo();
+		#$caller['id'];
 
 		// $called now has a hash containing the keys: id, name, channel, and network
-		$tropo->say("You called " . $called['id'] . " but you probably already knew that.");
+		#$called['id'];
 
 		if ($called['channel'] == "TEXT") {
-		  // This is a text message
-		  $tropo->say("You contacted me via text.");
-		  
-		  // ... or, you can grab that first text like this straight from the session.
-		  $message = $session->getInitialText();
 
-		  $tropo->say("You said " . $message);
+		  // Text greeting
+		  $this->tropo->say("Welcome to Text Roulette!");
+  		  $this->tropo->say("(At any point to stop getting text simply type \"STOP\" or \"s!\"");
+		  $this->tropo->say("Text back \"START\" or \"s?\" to get connected");
+
+
+		  // Get text
+		  $this->_message = strtoupper($session->getInitialText());
+		  #$this->tropo->say("You said " . $this->_message);
+
+		  // Look for command
+		  $this->_messageCommands();
+
+
 		
 		} else {
+
 		  // This is a phone call
-		  $tropo->say("Awww. How nice. You cared enough to call.");
+		  $this->tropo->say("www dot media chains dot com");
+
 		}
 
 		print $tropo;
-		Yii::app()->end(); 
+		#Yii::app()->end(); 
+	}
+
+	/* Interpret user commands */
+	private function _messageCommands() {
+
+		// START
+ 		if($_message == "START" || $_message == "S?") {
+			// Send Snap exit greeting 
+			$this->snapResponse();
+
+			// Search records for CidVcid 
+			// @TODO Append column to table called session id for tracking
+			// $post=new Post;
+			$CidVcid = CidVcid::model()->find('cid=:cid', array(':cid'=>$this->_called['id']));
+
+			if(is_null($CidVcid)) {
+		      $model = new CidVcid;
+
+		      $model->cid = $this->_caller['id'];
+		      $model->status = 1; // ACTIVE	
+
+		      if($model->save()) {
+		      	// Search for random partner
+		      }
+			}
+		
+
+		// STOP
+ 		if($_message == "STOP" || $_message == "S!") {
+			// Send Snap exit greeting 
+			$this->snapResponse();
+
+			// Search records for CidVcid
+			$CidVcid = CidVcid::model()->find('cid=:cid', array(':cid'=>$this->_called['id']));
+			$CidVcid->status = 0; // DEACTIVE
+			$CidVcid->save();
+
+		}
+
+
+/*
+			case 'NEXT':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+			case 'N?':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+
+
+			case 'HELP':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+			case 'H?':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+
+
+			case 'STOP':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+			case 'S!':
+				// Send Snap exit greeting 
+				$this->snapResponse();
+				break;
+ */
+		
+
+	}
+
+	/* This will look at the _message property and determine response */
+	public function snapResponse() {
+
+		// START / HELP(FIRST TIME)
+ 		if($_message == "START" || $_message == "S?") {
+			$this->tropo->say("Starting Text Roulette!");
+			$this->tropo->say("To rotate send \"n?\" ");
+		}
+
+		// STOP
+ 		if($_message == "STOP" || $_message == "S!") {
+			$this->tropo->say("Stopping Text Roulette!")
+			$this->tropo->say("We will miss you! :(");
+		}
+
+		// NEXT
+		// GREETING
+		// HELP
+		#$respSnap = array();
+
+
 	}
 
 }
