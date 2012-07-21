@@ -38,8 +38,8 @@ class ListenController extends Controller {
 
 		  // Text greeting
 		  $this->tropo->say("Welcome to Text Roulette!");
-  		  #$this->tropo->say("(At any point to stop getting text simply type \"STOP\" or \"s!\")");
-		  #$this->tropo->say("Text back \"START\" or \"s?\" to get connected");
+  		  $this->tropo->say("At any point to stop getting text simply type STOP or 's!' ");
+		  $this->tropo->say("Text back START or s? to get connected");
 		  print $this->tropo;
 
 		  // Get text
