@@ -146,7 +146,7 @@ class ListenController extends Controller {
 
 		// STOP
  		if($_message == "STOP" || $_message == "S!") {
-			$this->tropo->say("Stopping Text Roulette!")
+			$this->tropo->say("Stopping Text Roulette!");
 			$this->tropo->say("We will miss you! :(");
 		}
 
