@@ -6,7 +6,8 @@ class ListenController extends Controller {
 	private $_message;
 	private $_caller;
 	private $_called;
-	public  $tropo = new Tropo();
+
+	public  $tropo;
 
 
 	public function actionIndex() {
@@ -22,6 +23,8 @@ class ListenController extends Controller {
 		  // do anything if we catch this.
 		}
 
+		$this->tropo = new Tropo();
+		
 		// Get caller details
 		$this->_caller = $session->getFrom();
 		$this->_called = $session->getTo();
@@ -36,7 +39,7 @@ class ListenController extends Controller {
 
 		  // Text greeting
 		  $this->tropo->say("Welcome to Text Roulette!");
-  		  $this->tropo->say("(At any point to stop getting text simply type \"STOP\" or \"s!\"");
+  		  $this->tropo->say("(At any point to stop getting text simply type \"STOP\" or \"s!\")");
 		  $this->tropo->say("Text back \"START\" or \"s?\" to get connected");
 
 
@@ -138,7 +141,7 @@ class ListenController extends Controller {
 		// START / HELP(FIRST TIME)
  		if($_message == "START" || $_message == "S?") {
 			$this->tropo->say("Starting Text Roulette!");
-			$this->tropo->say("To rotate send \"n?\" ");
+			$this->tropo->say("To rotate type \"NEXT\" or \"n?\" ");
 		}
 
 		// STOP
